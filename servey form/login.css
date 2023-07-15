@@ -1,0 +1,39 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: beige;
+}
+.content{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 32rem;
+  display: grid;
+}
+form:hover{
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.4);
+  width: 33rem;
+}
+form .userinput{
+  height: 4rem;
+  border: none;
+  border-radius: 10px;
+  font-size: large;
+  margin: 1%;
+}
+form input{
+  padding-left: 10%; 
+}
+form input:hover{
+  font-size: larger;
+}
+button{
+  cursor: pointer;
+}
